@@ -9,5 +9,86 @@ button {
     background: none;
     border: none;
     outline: none;
-    
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
+.Main_Primary {
+    background-color: #eeecec;
+}
+.FortniteIntroduction{
+    display: flex;
+    padding: 3px;
+    background-color: #f5f5f5;
+}
+.FortniteIntroduction__Image{
+    margin-right: auto;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.FortniteIntroduction__Container{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+}
+.FortniteIntroduction__Container-Text{
+    font-size: 700;
+    height: 50px;
+    line-height: 55px;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.FortniteIntroduction__Image{
+    margin-left: 200px;
+}
+.SecondHeaderContainer{
+
+}
+.SecondHeaderContainer__GameIntroduction{
+
+}
+.FortniteCatchcopy{
+
+}
+.FortniteCatchcopy__Text{
+
+}
+.AboveContainer__Box__FirstContainer{
+
+}
+.Image{
+
+}
+.AboveContainer{
+
+}
+.AboveContainer__Box__FirstContainer--IntroductionText{
+
+}
+.AboveContainer__Box__Catchcopy{
+
+}
+.AboveContainer__Box__ButtonContainer{
+
+}
+.FortniteSecondCatchcopy{
+
+}
+.FooterImage{
+
+}
+.TopImage__Spidreman{
+    width: 100%;
+    vertical-align: top;
+}
+
+
+
+
+
