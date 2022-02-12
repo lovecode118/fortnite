@@ -3,6 +3,7 @@
     margin: 0;
     list-style: none;
     box-sizing: border-box;
+    background-color: #b4b4b4;
     font-family: adobe-clean-han-japanese,adobe-clean,Hiragino Kaku Gothic ProN,Yu Gothic,"\30E1 \30A4 \30EA \30AA","\30D2 \30E9 \30AE \30CE \89D2 \30B4 Pro W3",Hiragino Kaku Gothic Pro W3,Osaka,"\FF2D \FF33 \FF30 \30B4 \30B7 \30C3 \30AF",MS PGothic,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
 }
 button {
@@ -38,54 +39,168 @@ button {
     height: 50px;
     line-height: 55px;
     text-align: center;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 20px;
-    padding-right: 20px;
-
 }
 .FortniteIntroduction__Image{
     margin-left: 200px;
 }
 .SecondHeaderContainer{
-
+    width: 500px;
+    height: 80px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
 }
 .SecondHeaderContainer__GameIntroduction{
-
+    text-align: center;
+    font-weight: 700;
+    width: 150px;
+    line-height: 80px;
 }
 .FortniteCatchcopy{
-
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .FortniteCatchcopy__Text{
-
-}
-.AboveContainer__Box__FirstContainer{
-
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
 }
 .Image{
-
+    width: 100%;
+    height: 100%;
 }
 .AboveContainer{
-
+    width: 1000px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
 }
 .AboveContainer__Box__FirstContainer--IntroductionText{
-
+    padding-top: 5px;
+    font-size: 12.6px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(131, 131, 131);
+    display: block;
+}
+.AboveContainer__Box__SecondContainer--IntroductionText{
+    padding-top: 5px;
+    font-size: 12.6px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(131, 131, 131);
+    display: block;
+}
+.AboveContainer__Box__ThirdContainer--IntroductionText{
+    display: block;
+    padding-top: 5px;
+    font-size: 12.6px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(131, 131, 131);
 }
 .AboveContainer__Box__Catchcopy{
-
+    text-align: center
 }
 .AboveContainer__Box__ButtonContainer{
-
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.AboveContainer__Box__ButtonContainer--button{
+    display: block;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: #1373e6;
+    border-radius: 50px;
 }
 .FortniteSecondCatchcopy{
-
+    text-align: center;
+    padding-bottom: 50px;
 }
 .FooterImage{
-
+    width: 100%;
+    vertical-align: top;
 }
 .TopImage__Spidreman{
     width: 100%;
     vertical-align: top;
+}
+.BelowContainer{
+    width: 1000px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.BelowContainer__Box__Catchcopy{
+    text-align: center
+}
+.BelowContainer__Box__ButtonContainer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.BelowContainer__Box__ButtonContainer--button{
+    display: block;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: #1373e6;
+    border-radius: 50px;
+}
+.BelowContainer__Box__sixthContainer--IntroductionText{
+    padding-top: 5px;
+    font-size: 12.6px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(131, 131, 131);
+    display: block;
+}
+.BelowContainer__Box__FourthContainer--IntroductionText{
+    padding-top: 5px;
+    font-size: 12.6px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(131, 131, 131);
+    display: block;
+}
+.BelowContainer__Box__fifthContainer--IntroductionText{
+    padding-top: 5px;
+    font-size: 12.6px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(131, 131, 131);
+    display: block;
+}
+.FortniteIntroduction__Image{
+    width: 80px;
+    height: auto;
+}
+.Image{
+    width: 300px;
+    vertical-align: top;
+}
+.AboveContainer__Box{
+    display: block;
+}
+.AboveContent{
+    display: flex;
+    align-items: center;
+}
+.BelowContent{
+    display: flex;
+}
+.Newline{
+    display: block;
 }
 
 
