@@ -3,7 +3,7 @@
     margin: 0;
     list-style: none;
     box-sizing: border-box;
-    background-color: #b4b4b4;
+    
     font-family: adobe-clean-han-japanese,adobe-clean,Hiragino Kaku Gothic ProN,Yu Gothic,"\30E1 \30A4 \30EA \30AA","\30D2 \30E9 \30AE \30CE \89D2 \30B4 Pro W3",Hiragino Kaku Gothic Pro W3,Osaka,"\FF2D \FF33 \FF30 \30B4 \30B7 \30C3 \30AF",MS PGothic,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
 }
 button {
@@ -191,10 +191,14 @@ button {
 }
 .AboveContainer__Box{
     display: block;
+    background-color: #d8d8d8;
+}
+.BelowContainer__Box{
+    display: block;
+    background-color: #d8d8d8;
 }
 .AboveContent{
     display: flex;
-    align-items: center;
 }
 .BelowContent{
     display: flex;
