@@ -18,32 +18,34 @@ button {
     background-color: #eeecec;
 }
 .FortniteIntroduction{
+    padding-top: 3px;
     display: flex;
-    padding: 3px;
     background-color: #f5f5f5;
-}
-.FortniteIntroduction__Image{
-    margin-right: auto;
-    margin-top: 10px;
-    margin-left: 50px;
-}
-.AboveContainer__Box__FirstContainer{
-
 }
 .FortniteIntroduction__Container{
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    text-align: center;
+    justify-content: center;
 }
 .FortniteIntroduction__Container-Text{
-    font-size: 700;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 700;
     height: 50px;
     line-height: 55px;
     text-align: center;
 }
 .FortniteIntroduction__Image{
-    margin-left: 200px;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+.FortniteIntroduction__Container-button{
+    font-weight: 700;
+    margin-top: 3px;
+    margin-right: 50px;
+    margin-left: auto;
 }
 .SecondHeaderContainer{
     width: 500px;
@@ -71,9 +73,6 @@ button {
     width: 100%;
     height: 100%;
 }
-
-
-
 .FortniteSecondCatchcopy{
     text-align: center;
     padding-bottom: 50px;
@@ -86,25 +85,6 @@ button {
     width: 100%;
     vertical-align: top;
 }
-.BelowContainer__Box__ButtonContainer--button{
-    display: block;
-    width: 100px;
-    height: 30px;
-    cursor: pointer;
-    font-weight: 700;
-    color: white;
-    background-color: #1373e6;
-    border-radius: 50px;
-}
-
-.FortniteIntroduction__Image{
-    width: 80px;
-    height: auto;
-}
-.Image{
-    width: 300px;
-    vertical-align: top;
-}
 .AboveContainer__Box__ButtonContainer--button{
     display: block;
     width: 100px;
@@ -114,39 +94,35 @@ button {
     color: white;
     background-color: #1373e6;
     border-radius: 50px;
+    margin: 0 auto;
 }
 .AboveContent{
     display: flex;
     flex-wrap: wrap;
+    width: clamp(300px,100%,1160px);
+    margin: 0 auto;
+    gap: 37px;
+    padding: 0 37px;
 }
 .AboveContainer{
-    width: 320px;
+    width: 300px;
+    display: flex;
+    text-align: center;
+    background-color: white;
 }
 span{
     display: block;
     flex-wrap: wrap;
 }
-.AboveContainer{
-    display: flex;
-    flex-wrap: wrap;
-}
-.AboveContainer__Box__FirstContainer{
+.AboveContainer__Box__Container--IntroductionText{
+    font-size: 90%;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(131, 131, 131);
     
 }
-.AboveContainer__Box__SecondContainer{
-    
-}
-.AboveContainer__Box__ThirdContainer{
-    
-}
-.AboveContainer__Box__FourthContainer{
-    
-}
-.AboveContainer__Box__fifthContainer{
-    
-}
-.AboveContainer__Box__sixthContainer{
-    
+.FortniteSecondCatchcopy{
+    padding-top: 50px;
 }
 
 
